@@ -1,0 +1,15 @@
+nohup python main.py \
+--data_dir ./data/ \
+--task_name snli \
+--model_type bert \
+--bert_path ../../bert-base-uncased \
+--tokenizer_path ../../bert-base-uncased \
+--model_name_or_path bert-base-uncased \
+--num_train_epochs 10 \
+--per_gpu_train_batch_size 128 \
+--max_seq_length 64 \
+--num_classes 3 \
+--output_dir ./checkpoint/ \
+--savename bestmodel_snli.pt \
+--per_gpu_eval_batch_size 64 \
+--reload > log/train_bert_snli.log
