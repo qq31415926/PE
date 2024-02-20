@@ -11,3 +11,5 @@ For AOPC/TREC/del/0.2, you can run like this:
 
 For time/Yelp, you can run like this:
 `python visualize.py --dataset yelp --class_num 2 --alpha1 -0.5 --alpha2 -0.3 --alpha3 1`
+### checkpoint 
+<https://drive.google.com/drive/folders/1eWAwiL0Pu50PU0W8tll18H1UoC8qk_UC?usp=sharing>
