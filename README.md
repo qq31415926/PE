@@ -1,4 +1,4 @@
-## Source code for PE: A Poincare Explanation Method for Text Hierarchy Generation
+## Source code for PE: A Poincare Explanation Method for Fast Text Hierarchy Generation
 
 For AOPC/Rotten Tomatoes/del/0.2, you can run like this:
 `python test.py --dataset ptb --bert_path your_bert_path --class_num 2 --alpha1 0 --alpha2 0 --alpha3 1 --top 0.2 --del_or_pad del `
